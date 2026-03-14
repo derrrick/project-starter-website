@@ -1,0 +1,22 @@
+{
+  "project": "project-starter-website",
+  "agents": {
+    "marketer": {
+      "enabled": true,
+      "cron": "0 9 * * 1,3,5"
+    },
+    "analyst": {
+      "enabled": true,
+      "cron": "0 6 * * *"
+    },
+    "seller": {
+      "enabled": false,
+      "cron": "0 8 * * *"
+    },
+    "researcher": {
+      "enabled": false,
+      "cron": "0 10 * * 0"
+    }
+  },
+  "scaffolded_at": "2026-03-14T20:51:45Z"
+}
