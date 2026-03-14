@@ -73,7 +73,7 @@ export default function Agents() {
             <p className="font-body text-lg font-light leading-relaxed text-muted mb-4">
               Agents run autonomously on cron schedules via{" "}
               <a
-                href="https://github.com/anthropics/openclaw"
+                href="https://openclaw.ai/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-ink hover:text-accent transition-colors"
@@ -95,7 +95,7 @@ export default function Agents() {
             <p className="font-body text-sm text-muted">
               Requires{" "}
               <a
-                href="https://github.com/anthropics/openclaw"
+                href="https://openclaw.ai/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-mono text-accent hover:text-fg transition-colors"
