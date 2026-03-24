@@ -15,9 +15,9 @@ export default function WhatIsThis() {
   return (
     <section
       id="what-is-this"
-      className="px-6 md:px-12 lg:px-24 py-32 md:py-48 border-t border-border"
+      className="py-32 md:py-48 border-t border-border"
     >
-      <div className="max-w-[1400px] mx-auto">
+      <div className="max-w-[1400px] mx-auto px-8 lg:px-16">
         <KineticText
           text="WHAT IS THIS?"
           tag="h2"
