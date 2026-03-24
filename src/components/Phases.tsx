@@ -55,7 +55,7 @@ export default function Phases() {
     <section id="phases" className="px-6 md:px-12 lg:px-24 py-32 md:py-48">
       <div className="max-w-[1400px] mx-auto">
         <KineticText
-          text="SIX PHASES"
+          text="SIX AUTONOMOUS PHASES"
           tag="h2"
           className="font-display text-[clamp(3rem,8vw,7rem)] leading-[0.9] tracking-[-0.02em] text-fg mb-4"
           splitBy="chars"
