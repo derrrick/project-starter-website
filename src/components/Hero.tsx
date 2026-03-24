@@ -69,8 +69,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-screen flex flex-col justify-end px-6 md:px-12 lg:px-24 pb-24 md:pb-32 pt-32">
-      <div className="max-w-[1400px] w-full">
+    <section className="min-h-screen flex flex-col justify-end pb-24 md:pb-32 pt-32">
+      <div className="max-w-[1400px] mx-auto px-8 lg:px-16 w-full">
         {/* Kinetic display type */}
         <div className="mb-16 md:mb-24">
           <h1
@@ -100,9 +100,10 @@ export default function Hero() {
               ref={descRef}
               className="font-body text-lg md:text-xl font-light leading-relaxed text-fg/65"
             >
-              One shell command. Ten-minute intake. Full project scaffold
-              &mdash; planning, design system, autonomous agents. Built for
-              Claude Code.
+              Run one command. Answer 10 questions about your idea. Wake up
+              to a fully built SaaS &mdash; landing page, auth, payments,
+              database, design system, and 4 AI agents that market, analyze,
+              sell, and research for you. Automatically.
             </p>
           </div>
 
